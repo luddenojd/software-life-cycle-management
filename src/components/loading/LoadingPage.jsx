@@ -28,7 +28,7 @@ const LoadingPage = ({ updatePage }) => {
       ) : (
         <div className="back-wrapper">
           <h1 className="thank-you">Tack för din medverkan!</h1>
-          <button onClick={() => updatePage(null)}>
+          <button className="back-button" onClick={() => updatePage(null)}>
             <h4>Tillbaka</h4>
           </button>
         </div>
