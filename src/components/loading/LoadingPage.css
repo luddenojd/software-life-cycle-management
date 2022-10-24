@@ -5,6 +5,18 @@
   font-weight: 200;
 }
 
+.back-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f3ac3c;
+  border: none;
+  color: #0b2429;
+  height: 44px;
+  width: 250px;
+  border-radius: 20px;
+}
+
 .back-wrapper {
   display: flex;
   flex-direction: column;

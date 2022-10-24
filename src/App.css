@@ -10,4 +10,9 @@ h1 {
   background: #1a4341;
   padding: 10px;
   border-radius: 10px;
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 400;
 }
