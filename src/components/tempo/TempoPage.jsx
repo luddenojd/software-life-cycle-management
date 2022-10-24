@@ -1,25 +1,23 @@
 import React from "react"
-import "./KursPlan.css"
-const KursPlan = ({ updatePage }) => {
+import "./TempoPage.css"
+const TempoPage = ({ updatePage }) => {
   return (
     <div className="wrapper">
       <div className="form-start">
-        <h2>
-          Hur relevant tycker du att kursplanen har varit för din utbildning?
-        </h2>
+        <h2>Hur har du upplevt tempot under kursens gång?</h2>
         <div className="radio-buttons">
           <input type="radio" name="choice" />
-          <p>Helt orelevant</p>
+          <p>För lågt</p>
           <input type="radio" name="choice" />
-          <p>Ganska orelevant</p>
+          <p>Ganska lågt</p>
           <input type="radio" name="choice" />
-          <p>Relevant</p>
+          <p>Lagom</p>
           <input type="radio" name="choice" />
-          <p>Väldigt relevant</p>
+          <p>Ganska högt</p>
           <input type="radio" name="choice" />
-          <p>Oerhört relevant</p>
+          <p>Väldigt högt</p>
         </div>
-        <button onClick={() => updatePage("tempo")}>
+        <button onClick={() => updatePage(null)}>
           <h4>Nästa</h4>
         </button>
       </div>
@@ -27,4 +25,4 @@ const KursPlan = ({ updatePage }) => {
   )
 }
 
-export default KursPlan
+export default TempoPage
