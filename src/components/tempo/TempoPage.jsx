@@ -17,7 +17,7 @@ const TempoPage = ({ updatePage }) => {
           <input type="radio" name="choice" />
           <p>Väldigt högt</p>
         </div>
-        <button onClick={() => updatePage(null)}>
+        <button onClick={() => updatePage("better")}>
           <h4>Nästa</h4>
         </button>
       </div>
