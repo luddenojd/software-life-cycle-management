@@ -1,6 +1,7 @@
 import WelcomePage from "./components/welcome/WelcomePage.jsx"
 import KursPlan from "./components/kursplan/KursPlan.jsx"
 import TempoPage from "./components/tempo/TempoPage.jsx"
+import BetterPage from "./components/better/BetterPage.jsx"
 import { useState } from "react"
 import "./App.css"
 
@@ -17,6 +18,7 @@ function App() {
       {page == null ? <WelcomePage updatePage={updatePage} /> : ""}
       {page == "first" ? <KursPlan updatePage={updatePage} /> : ""}
       {page == "tempo" ? <TempoPage updatePage={updatePage} /> : ""}
+      {page == "better" ? <BetterPage updatePage={updatePage} /> : ""}
     </div>
   )
 }
