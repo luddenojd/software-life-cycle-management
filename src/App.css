@@ -7,4 +7,7 @@
 
 h1 {
   color: white;
+  background: #1a4341;
+  padding: 10px;
+  border-radius: 10px;
 }
