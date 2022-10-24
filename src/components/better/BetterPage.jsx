@@ -9,7 +9,7 @@ const BetterPage = ({ updatePage }) => {
           <p>Dina förslag:</p>
           <textarea name="" id="" cols="50" rows="10"></textarea>
         </div>
-        <button onClick={() => updatePage(null)}>
+        <button onClick={() => updatePage("loading")}>
           <h4>Skicka in</h4>
         </button>
       </div>
