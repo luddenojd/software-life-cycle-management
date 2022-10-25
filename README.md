@@ -1,3 +1,3 @@
 # Practice app for GIT
 
-Git push
+npm start
